@@ -1,15 +1,7 @@
-Here’s a **clean, ready-to-paste version** for your `README.md` that you can directly insert. It focuses on **project overview, structure, setup, and usage** without extra explanations:
-
-```markdown
 # Fullstack Project: Backend & Frontend
-
-This repository contains a **FastAPI backend** and a **React frontend**.
-
+This repository contains a **FastAPI backend** and a **React-Ts frontend**.
 ---
-
 ## Project Structure
-
-```
 
 root/
 ├── backend/                # FastAPI backend
@@ -25,35 +17,29 @@ root/
 ├── .gitignore
 └── README.md
 
-````
-
----
-
 ## Technologies
 
 **Backend:** Python 3.11+, FastAPI, Motor, Pydantic, MongoDB  
 **Frontend:** React, Tailwind CSS, Node.js, Vite  
 **AI Integration:** OpenAI GPT-4 for MongoDB query generation
 
----
-
 ## Setup
 
 ### Backend
 
-```bash
+#bash
 cd backend
 python -m venv venv
 source venv/bin/activate      # Linux/macOS
 venv\Scripts\activate         # Windows
 pip install -r requirements.txt
-````
+
+
 
 Create a `.env` file:
-
-```
+# .env
 OPENAI_API_KEY=your_openai_key
-```
+
 
 Run the backend:
 
