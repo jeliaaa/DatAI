@@ -1,0 +1,11 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+python-multipart==0.0.6
+pandas==2.2.3
+openpyxl==3.1.2
+sqlparse==0.4.4
+sqlalchemy==2.0.20
+psycopg2-binary==2.9.7
+pymysql==1.1.0
+python-dotenv==1.0.0
+pydantic==1.10.11

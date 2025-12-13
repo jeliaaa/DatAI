@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+    --color-main-color: #034159;
+    --color-dark-color: #034159;
+    --color-primary-color: #0CF25D;
+    --color-texts-color: #fafcff
+}
+
+@font-face {
+    font-family: "Main";
+    src: url(fonts/Orbitron-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: "Main", sans-serif;
+}
