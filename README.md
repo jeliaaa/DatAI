@@ -21,28 +21,29 @@ root/
 
 **Backend:** Python 3.11+, FastAPI, Motor, Pydantic, MongoDB  
 **Frontend:** React, Tailwind CSS, Node.js, Vite  
-**AI Integration:** OpenAI GPT-4 for MongoDB query generation
+**AI Integration:** OpenAI GPT-4 for MongoDB / Sql / PostgreSql / Neo4j query generation
 
 ## Setup
 
 ### Backend
 
 #bash
+```
 cd backend
 python -m venv venv
 source venv/bin/activate      # Linux/macOS
 venv\Scripts\activate         # Windows
 pip install -r requirements.txt
-
+```
 
 
 Create a `.env` file:
-# .env
+.env
+```
 OPENAI_API_KEY=your_openai_key
-
+```
 
 Run the backend:
-
 ```bash
 uvicorn app.main:app --reload
 ```
