@@ -1,6 +1,6 @@
 # DatAI
 ## _Communication with databases made easy_
-<img width="97" height="110" alt="image" src="https://github.com/user-attachments/assets/eed84f51-8652-4e7e-a873-2422dfff66cc" />
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/4aa979cd-1d97-42cf-8ecd-1fbecbb61a76" />
 
 DatAI is a powerful productivty tool that helps to control your databases with simple words.
 Working on databases has never been that easy
