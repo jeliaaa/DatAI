@@ -1,16 +1,18 @@
 import { Link, useLocation } from "react-router-dom";
 import qtdb from '../../assets/icons/QtDb.svg?react'
 import tts from '../../assets/icons/db-schemes.svg?react'
+import graph from '../../assets/icons/graph.svg?react'
 import logo from "../../assets/logo.png"
 
 const Navigation = () => {
   const { pathname } = useLocation();
 
   const navigationList = [
-    { to: "/query-to-database", name: "Query To Database", Icon: qtdb },
-    { to: "/text-to-scheme", name: "Text to Scheme", Icon: tts }
+    { to: "/", name: "Query To Database", Icon: qtdb },
+    { to: "/text-to-scheme", name: "Text to Scheme", Icon: tts },
+    { to: "/neo4j-graphs", name: "Neo4j Graphs", Icon: graph }
   ];
-  const isActive = (to: string) => pathname.startsWith(to);
+  const isActive = (to: string) => pathname.endsWith(to);
   return (
     <>
       {/* Sidebar for desktop */}
@@ -24,7 +26,7 @@ const Navigation = () => {
         {navigationList.map(({ Icon, name, to }) => (
           <Link key={to} to={to} className="relative group w-fit z-50">
             <Icon
-              className={`w-12 h-12 object-center mr-2 trans1ition-colors duration-200 ${isActive(to) ? "fill-texts-color" : "fill-primary-color"
+              className={`w-12 h-12 object-center ${name != 'Neo4j Graphs' && "mr-2"} trans1ition-colors duration-200 ${isActive(to) ? "fill-texts-color" : "fill-primary-color"
                 }`}
             />
             <span className="hidden absolute left-12 top-1/2 transform -translate-y-1/2 bg-gray-700 text text-xs px-2 py-1 rounded z-50 group-hover:block ">

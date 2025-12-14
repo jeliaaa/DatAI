@@ -1,6 +1,6 @@
 export const PublicRoutes = {
-  test: "/",
-  queryToDb: "/query-to-database",
+  queryToDb: "/",
+  neographs: "/neo4j-graphs",
   textToScheme: "/text-to-scheme"
 };
 

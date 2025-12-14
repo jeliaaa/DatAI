@@ -1,7 +1,7 @@
 import { lazy } from "react";
 import { routes } from "./routes";
 
-const Test = lazy(() => import("../Test"));
+const NeoGraphs = lazy(() => import("../pages/NeoGraphs"));
 const QtDb = lazy(() => import("../pages/QueryToDatabase"));
 const TtS = lazy(() => import("../pages/TextToScheme"));
 
@@ -9,12 +9,12 @@ const TtS = lazy(() => import("../pages/TextToScheme"));
 
 export const publicRoutes = [
   {
-    title: "main",
-    path: routes.test,
-    component: Test,
+    title: "neo4j-graphs",
+    path: routes.neographs,
+    component: NeoGraphs,
   },
   {
-    title: "queryToDb",
+    title: "main",
     path: routes.queryToDb,
     component: QtDb,
   },
