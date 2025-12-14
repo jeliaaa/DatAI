@@ -1,27 +1,49 @@
-# Fullstack Project: Backend & Frontend
-This repository contains a **FastAPI backend** and a **React-Ts frontend**.
----
-## Project Structure
+# DatAI
+## _Communication with databases made easy_
+<img width="97" height="110" alt="image" src="https://github.com/user-attachments/assets/eed84f51-8652-4e7e-a873-2422dfff66cc" />
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-root/
-├── backend/                # FastAPI backend
-│   ├── app/                # Python application code
-│   ├── requirements.txt
-│   └── .env                # Environment variables (ignored)
-│
-├── frontend/               # React frontend
-│   ├── src/                # Source code
-│   ├── package.json
-│   └── .env                # Environment variables (ignored)
-│
-├── .gitignore
-└── README.md
+DatAI is a powerful productivty tool that helps to control your databases with simple words.
+Working on databases has never been that easy
 
-## Technologies
+- Type your clear instructions in English  
+- AI makes changes in your database instead of you
+- ✨Magic ✨ with no excess queries and  'language' barriers
 
-**Backend:** Python 3.11+, FastAPI, Motor, Pydantic, MongoDB  
-**Frontend:** React, Tailwind CSS, Node.js, Vite  
-**AI Integration:** OpenAI GPT-4 for MongoDB / Sql / PostgreSql / Neo4j query generation
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/8d065d32-be39-4cbb-b6f4-0a149661844f" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/3777324e-4727-4aca-a9e6-85f13d27b46a" />
+## Features
+
+- Straightforward / comfortable UI
+- Link your databases with url's and credentials
+- type a prompt you want to execute, make it clear, specific
+- View the validated table of your database
+- Export documents as .json files and view real-time database changes!
+
+
+
+This text you see here is *actually- written in Markdown! To get a feel
+for Markdown's syntax, type some text into the left window and
+watch the results in the right.
+
+## Tech
+
+Dillinger uses a number of open source projects to work properly:
+
+- [ReactJS] - Comfortable/fast UI!
+- [FastAPI] - Lightning-fast Backend operations.
+- [tailwindcss] - Proper styling.
+- [TypeScript] - No Chance to any type-casued bugs!
+- [Docker] - duh
+
+And of course DatAI itself is open source with a [public repository][dill]
+ on GitHub.
+
+## Installation
+
+Dillinger requires [Python](https://python.org/) 3.11v+ to run.
+
+Install the dependencies and devDependencies and start the server.
 
 ## Setup
 
