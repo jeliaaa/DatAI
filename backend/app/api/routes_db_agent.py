@@ -11,12 +11,8 @@ async def db_agent(req: DBAgentRequest):
     db_type = req.db.type.lower()
     inspector = None
     result = None
-
-    # 1️⃣ Generate query from OpenAI
     client = OpenAIClient()
     query_data = await client.generate_query(db_type, req.prompt)
-
-    # 2️⃣ Connect to DB and execute
     if db_type == "mongo":
         inspector = MongoInspector(req.db.model_dump())
         await inspector.connect()
@@ -30,5 +26,4 @@ async def db_agent(req: DBAgentRequest):
     else:
         raise ValueError(f"Unsupported DB type: {db_type}")
 
-    # 3️⃣ Return result
     return DBAgentResponse(query=query_data, result=result)
