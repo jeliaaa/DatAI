@@ -105,10 +105,3 @@ npm run dev
 * Keep secrets in `.env`; do **not** commit them.
 * Backend and frontend can be run independently.
 * MongoInspector handles MongoDB Extended JSON dates and converts them to Python `datetime`.
-
-```
-
-This is compact, clear, and covers **all essentials**.  
-
-If you want, I can also **add badges and quick GitHub install instructions** to make it more professional for your repo homepage. Do you want me to do that?
-```
