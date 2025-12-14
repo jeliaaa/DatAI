@@ -1,7 +1,6 @@
 # DatAI
 ## _Communication with databases made easy_
 <img width="97" height="110" alt="image" src="https://github.com/user-attachments/assets/eed84f51-8652-4e7e-a873-2422dfff66cc" />
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 DatAI is a powerful productivty tool that helps to control your databases with simple words.
 Working on databases has never been that easy
