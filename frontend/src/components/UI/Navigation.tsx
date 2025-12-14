@@ -8,9 +8,7 @@ const Navigation = () => {
 
   const navigationList = [
     { to: "/query-to-database", name: "Query To Database", Icon: qtdb },
-    { to: "/text-to-scheme", name: "Text to Scheme", Icon: tts },
-    { to: "/settings", name: "პარამეტრები", Icon: qtdb },
-    { to: "/videoLessons", name: "ვიდეო გაკვეთილები", Icon: qtdb },
+    { to: "/text-to-scheme", name: "Text to Scheme", Icon: tts }
   ];
   const isActive = (to: string) => pathname.startsWith(to);
   return (
@@ -18,7 +16,7 @@ const Navigation = () => {
       {/* Sidebar for desktop */}
       <div className="top-0 left-0 h-screen w-[5dvw] bg-main-color text-white z-50 flex-col items-center py-4 gap-6 hidden md:fixed md:flex">
         <Link to="/">
-          <img src={logo} className="w-8" alt="Logo" />
+          <img src={logo} className="w-12" alt="Logo" />
         </Link>
 
         <hr className="w-[80%] border-2 border-primary-color my-4" />
@@ -61,7 +59,7 @@ const Navigation = () => {
         <Link to="/profile">
           <img
             src={logo}
-            className="w-8 h-8 rounded-full border-2 border-main-color"
+            className="w-8 rounded-full border-2 border-main-color"
             alt="Profile"
           />
         </Link>
